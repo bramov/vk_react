@@ -1,0 +1,60 @@
+.photo_column {
+    height: 270px;
+    width: 230px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+.photo_avatar {
+    padding-top: 15px;
+}
+
+.photo_avatar > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.photo_avatar_settings {
+    padding: 0 auto;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_avatar_setting_left {
+    background-color: #e5ebf1;
+    color: #55677d;
+    padding: 7px;
+    line-height: 17px;
+    font-size: 12.5px;
+    width: 75%;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.photo_avatar_setting_right {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    background-color: #e5ebf1;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.photo_avatar_setting_left:hover, .photo_avatar_setting_right:hover {
+    background-color: #dfe6ed;
+}
+
+.photo_avatar_setting_left:active, .photo_avatar_setting_right:active{
+    background-color: #dae2ea;
+}

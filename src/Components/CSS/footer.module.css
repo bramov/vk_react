@@ -1,0 +1,11 @@
+.footer_description {
+    position: relative;
+    margin-top: 20px;
+    color: #939699;
+    white-space: nowrap;
+    line-height: 19px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+    cursor: help;
+}

@@ -1,0 +1,46 @@
+.mainContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    opacity: 0.75;
+    box-sizing: border-box;
+    top: 5px;
+    padding-left: 5px;
+}
+
+.Icon, svg {
+    display: inline !important;
+    color: rgb(153, 178, 197);
+    position: relative;
+    margin-right: 5px;
+}
+
+
+.description_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.description_block_inside {
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+}
+.amount {
+    padding: 0 6px;
+    color: #939393;
+}
+.updates {
+    color: #939393;
+    height: 32px;
+    line-height: 40px;
+    font-size: 12.5px;
+    cursor: pointer;
+}
+

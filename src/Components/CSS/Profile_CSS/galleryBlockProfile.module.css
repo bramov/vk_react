@@ -1,0 +1,42 @@
+.block_with_photo {
+    width: 540px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+.photo_gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 10px 10px 10px;
+}
+
+.photo1, .photo2, .photo3, .photo4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 123px;
+    height: 123px;
+    cursor: pointer;
+}
+
+.photo1 {
+    background-image: url(https://sun9-20.userapi.com/c858132/v858132635/b8e98/YFpRNHyydLA.jpg);
+}
+
+
+.photo2 {
+    background-image: url(https://sun9-37.userapi.com/c639316/v639316905/5fb4b/-Dkttv6_MhI.jpg);
+}
+
+.photo3 {
+    background-image: url(https://sun9-30.userapi.com/c636920/v636920095/5c084/HC6Y7pFRlfE.jpg);
+}
+
+.photo4 {
+    background-image: url(https://sun9-49.userapi.com/c626327/v626327095/f5b6/V49kxPkGkQI.jpg);
+}
+

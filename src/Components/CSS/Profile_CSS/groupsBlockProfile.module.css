@@ -1,0 +1,50 @@
+
+
+.block_with_groups {
+    width: 230px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+.group_and_title_and_description_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.group_photo > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.title_and_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.group_name_text {
+    color: #2a5885;
+    text-decoration: none;
+    line-height: 130%;
+    font-size: 12.5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.group_name_text:hover {
+    text-decoration: underline;
+}
+
+.group_description_text {
+    font-size: 12px;
+    color: #656565;
+    line-height: 130%;
+    font-weight: 400;
+}

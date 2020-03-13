@@ -1,0 +1,72 @@
+.block_with_music {
+    width: 230px;
+    margin: 0px auto;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+.music_block_song {
+    margin: 0px 10px 5px 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+
+.play_button_hover svg {
+    color: #ffffff;
+}
+.play_button_hover {
+    display: none;
+}
+.music_block_song:hover {
+    background-color: rgb(242, 244, 247);
+}
+.music_block_song:hover .play_button_hover {
+    display: block;
+    padding-bottom: 9px;
+    padding-top: 1px;
+    padding-left: 4px;
+    border-radius: 4px;
+    background-color: rgb(10, 10, 10, 0.5);
+}
+
+.music_block_song_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.music_block_song_text_author {
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 12.5px;
+    color: #000;
+}
+.music_block_song_text_title {
+    color: #939393;
+    line-height: 1.25;
+    font-size: 12.5px;
+}
+
+.music_block_song_pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.song1 {
+    background: content-box #e6edf5 url(https://sun9-69.userapi.com/c852120/v852120279/1c2d85/mmT13EMfykI.jpg) no-repeat 10%;
+    background-size: contain;
+}
+.song2 {
+    background: content-box #e6edf5 url(https://sun9-45.userapi.com/c849328/v849328716/1647ba/kNKRrxKpaiY.jpg) no-repeat 10%;
+    background-size: contain;
+}
+.song3 {
+    background: content-box #e6edf5 url(https://sun9-61.userapi.com/c836130/v836130447/33419/yiRHcVldKwA.jpg) no-repeat 10%;
+    background-size: contain;
+}

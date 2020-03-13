@@ -1,0 +1,73 @@
+
+.block_with_friends {
+    width: 230px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+.description_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.description_block_inside {
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+}
+
+.updates {
+    color: #939393;
+    height: 32px;
+    line-height: 40px;
+    font-size: 12.5px;
+    cursor: pointer;
+}
+
+.friends_block_pics {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+figure {
+    margin: 0 12.5px;
+    padding: 0;
+}
+figcaption {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+    float: bottom;
+    line-height: 15px;
+    font-size: 12.5px;
+    font-weight: 400;
+    display: table;
+    margin: 0 auto;
+}
+
+figcaption:hover {
+    text-decoration: underline;
+}
+
+.friends_block_pics > figure > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.amount {
+    padding: 0 6px;
+    color: #939393;
+}
+.online {
+    border-top: 1px solid #e7e8ec;
+}

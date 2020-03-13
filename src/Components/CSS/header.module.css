@@ -1,0 +1,53 @@
+
+.logo {
+    background: url('https://vk.com/images/svg_icons/ic_head_logo.svg');
+    width: 34px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.header_content {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 42px;
+    background-color: rgb(76, 119, 166);
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+
+.logo_wrapper {
+    display: flex;
+    padding-top: 10px;
+}
+.header_name_photo {
+    display: flex;
+    align-items: center;
+}
+.header_name_photo:hover {
+    background-color: rgb(53, 95, 141);
+}
+
+.header_name_photo > span {
+    line-height: 42px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12.5px;
+    padding: 0 10px;
+}
+.header_name_photo > img {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+}
+
+.dropdown_icon {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+
+
+.block_with_post_field {
+    width: 540px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ava_and_message {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    line-height: 15px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.ava_and_message > img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.icons_message_field {
+    margin-bottom: 10px;
+}
+
+.icons_message_field svg:hover {
+    color: #2a5885;
+}
+
+
