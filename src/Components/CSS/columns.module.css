@@ -1,4 +1,10 @@
-.first_column, .second_column {
+.first_column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second_column {
     display: flex;
     flex-direction: column;
     margin-left: 10px;

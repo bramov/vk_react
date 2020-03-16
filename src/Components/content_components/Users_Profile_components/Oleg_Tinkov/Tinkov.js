@@ -5,7 +5,7 @@ import SecondColumn from "./content_components/secondColumn";
 
 
 
-const Profile = () => {
+const Tinkov = () => {
     return (
         <div className={style.main_content}>
            <FirstColumn/>
@@ -14,4 +14,4 @@ const Profile = () => {
     )
 };
 
-export default Profile;
+export default Tinkov;

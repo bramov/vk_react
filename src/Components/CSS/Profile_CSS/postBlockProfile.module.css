@@ -3,7 +3,7 @@
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 10px;
 }
 
@@ -84,6 +84,19 @@
     font-size: 13px;
     opacity: 0.5;
     margin-right: 5px;
+}
+.left_side_wrapper {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.left_side_wrapper > span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #67707a;
+    margin-top: 10px;
+    padding-right: 15px;
 }
 
 .right_side_wrapper svg {

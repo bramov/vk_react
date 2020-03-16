@@ -1,6 +1,6 @@
 import React from "react";
-import style from "../../CSS/Messages_CSS/messages.module.css";
-import {Icon28AddOutline, Icon28SearchOutline} from "../../../vk_import";
+import style from "../../../CSS/Messages_CSS/messages.module.css";
+import {Icon28AddOutline, Icon28SearchOutline} from "../../../../vk_import";
 
 const SearchInputBlock = () => {
     return (

@@ -1,0 +1,24 @@
+import Icon24Home from '@vkontakte/icons/dist/24/home';
+import Icon24Newsfeed from '@vkontakte/icons/dist/24/newsfeed';
+import Icon24Chats from '@vkontakte/icons/dist/24/chats';
+import Icon24User from '@vkontakte/icons/dist/24/user';
+import Icon24Users from '@vkontakte/icons/dist/24/users';
+import Icon24Camera from '@vkontakte/icons/dist/24/camera';
+import Icon24Music from '@vkontakte/icons/dist/24/music';
+import Icon24MoreHorizontal from '@vkontakte/icons/dist/24/more_horizontal';
+import Icon24Video from '@vkontakte/icons/dist/24/video';
+import Icon16Dropdown from '@vkontakte/icons/dist/16/dropdown';
+import Icon28ChevronDownOutline from '@vkontakte/icons/dist/28/chevron_down_outline';
+import Icon28LikeOutline from '@vkontakte/icons/dist/28/like_outline';
+import Icon28CommentOutline from '@vkontakte/icons/dist/28/comment_outline';
+import Icon28ShareOutline from '@vkontakte/icons/dist/28/share_outline';
+import Icon24View from '@vkontakte/icons/dist/24/view';
+import Icon28VideoOutline from '@vkontakte/icons/dist/28/video_outline';
+import Icon28SearchOutline from '@vkontakte/icons/dist/28/search_outline';
+import Icon28AddOutline from '@vkontakte/icons/dist/28/add_outline';
+import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
+import Icon28MoreHorizontal from '@vkontakte/icons/dist/28/more_horizontal';
+import Icon28AttachOutline from '@vkontakte/icons/dist/28/attach_outline';
+import Icon28Send from '@vkontakte/icons/dist/28/send';
+
+export {Icon24Home, Icon24Chats, Icon24Newsfeed, Icon24User, Icon24Users, Icon24Camera, Icon24Music, Icon24MoreHorizontal, Icon24Video, Icon16Dropdown, Icon28ChevronDownOutline, Icon28LikeOutline, Icon28CommentOutline, Icon28ShareOutline, Icon24View, Icon28VideoOutline, Icon28SearchOutline, Icon28AddOutline, Icon28ChevronBack, Icon28MoreHorizontal, Icon28AttachOutline, Icon28Send};

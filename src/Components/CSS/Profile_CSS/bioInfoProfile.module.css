@@ -4,6 +4,7 @@
     border-radius: 4px;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
     padding: 15px 20px;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -68,7 +69,7 @@ h1 {
 
 }
 
-.label_education {
+.label_heading {
     display: flex;
     margin-bottom: 10px;
 }
@@ -87,7 +88,9 @@ h1 {
 .button_show_details:hover {
     background-color: #f0f2f5;
 }
-
+.bio_additional_details {
+    display: block;
+}
 .title_for_details {
     margin: 10px 0;
     line-height: 150%;

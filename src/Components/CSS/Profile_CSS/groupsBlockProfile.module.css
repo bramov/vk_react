@@ -48,3 +48,31 @@
     line-height: 130%;
     font-weight: 400;
 }
+
+
+/* delete later */
+
+.description_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.description_block_inside {
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+}
+.amount {
+    padding: 0 6px;
+    color: #939393;
+}
+.updates {
+    color: #939393;
+    height: 32px;
+    line-height: 40px;
+    font-size: 12.5px;
+    cursor: pointer;
+}

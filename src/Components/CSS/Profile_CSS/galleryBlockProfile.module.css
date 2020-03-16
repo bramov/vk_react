@@ -3,7 +3,7 @@
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 5px 10px;
 }
 
@@ -40,3 +40,31 @@
     background-image: url(https://sun9-49.userapi.com/c626327/v626327095/f5b6/V49kxPkGkQI.jpg);
 }
 
+
+/*delete later */
+
+.description_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.description_block_inside {
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+}
+
+.amount {
+    padding: 0 6px;
+    color: #939393;
+}
+.updates {
+    color: #939393;
+    height: 32px;
+    line-height: 40px;
+    font-size: 12.5px;
+    cursor: pointer;
+}

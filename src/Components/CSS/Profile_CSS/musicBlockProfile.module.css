@@ -70,3 +70,28 @@
     background: content-box #e6edf5 url(https://sun9-61.userapi.com/c836130/v836130447/33419/yiRHcVldKwA.jpg) no-repeat 10%;
     background-size: contain;
 }
+
+.description_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.description_block_inside {
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    cursor: pointer;
+}
+.amount {
+    padding: 0 6px;
+    color: #939393;
+}
+.updates {
+    color: #939393;
+    height: 32px;
+    line-height: 40px;
+    font-size: 12.5px;
+    cursor: pointer;
+}

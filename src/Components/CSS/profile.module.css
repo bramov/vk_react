@@ -1,5 +1,5 @@
 .main_content {
-    width: 100%;
+    width: 550px;
     display: flex;
     justify-content: space-between;
 }

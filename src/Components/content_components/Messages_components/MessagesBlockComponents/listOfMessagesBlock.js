@@ -1,19 +1,25 @@
 import React from "react";
-import style from "../../CSS/Messages_CSS/messages.module.css";
+import style from "../../../CSS/Messages_CSS/messages.module.css";
 import MessagePreviewBlock from "./messagePreviewBlock";
+import {NavLink} from "react-router-dom";
 
-const ListOfMessagesBlock = () => {
+
+const DialogItem = (props) => {
+    return (
+        <NavLink to={"/im/" + props.id}>
+            <MessagePreviewBlock name={props.name} text={props.text} photo={props.photo} class={props.class}/>
+        </NavLink>
+    )
+};
+
+const ListOfMessagesBlock = (props) => {
+    let data = props.data.data
+    const DialogItems = data
+        .map(item => <DialogItem id={item.id} name={item.name} text={item.generatePreview()} photo={item.photo} class={item.generateClass()}/>);
+
     return (
         <div className={style.message_overflow_block}>
-
-            {/* img внутри .message_my_photo должен быть display: none, если meLast = true*/}
-
-            <MessagePreviewBlock name="Павел Дуров" text="Ну что бы я, блять, без тебя делал, сука" photo="https://sun1-98.userapi.com/c836333/v836333001/31192/y1Cm4JfplhQ.jpg?ava=1" class="message_my_photo_noLast"/>
-
-            <MessagePreviewBlock name="Олег Тиньков" text="переименуй в тинькоВК" photo="https://sun1-24.userapi.com/c830408/v830408310/9f89f/y4RXPChEl8s.jpg?ava=1" class="message_my_photo_noLast"/>
-
-            <MessagePreviewBlock name="Дмитрий Медведев" text="да не было меня на этом митинге" photo="https://sun1-93.userapi.com/c836634/v836634705/19405/RmhcChZNBP8.jpg?ava=1" class="message_my_photo"/>
-
+            {DialogItems}
         </div>
     )
 };
