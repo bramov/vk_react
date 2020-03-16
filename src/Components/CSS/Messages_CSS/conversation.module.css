@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 .heading_block_left:hover{
-    background: url('data:image/svg+xml;charset=utf-8,<svg height="16" viewBox="0 0 9 16" width="9" xmlns="http://www.w3.org/2000/svg"><path d="m8 15.9c-.2 0-.4-.1-.6-.3l-7-7c-.3-.3-.3-.9 0-1.2l7-7c.3-.3.9-.3 1.2 0s.3.9 0 1.2l-6.4 6.4 6.4 6.4c.3.3.3.9 0 1.2-.2.2-.4.3-.6.3z" fill="#828a99" opacity=".7"/></svg>') 15px 16px no-repeat, linear-gradient(90deg, #f0f2f5 50%, #fff)
+    background: 15px 16px no-repeat, linear-gradient(90deg, #f0f2f5 50%, #fff)
 }
 .heading_block_left span {
     color: #818d99;
