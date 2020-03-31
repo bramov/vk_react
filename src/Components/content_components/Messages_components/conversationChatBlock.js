@@ -9,7 +9,7 @@ import {useParams} from 'react-router-dom';
 const ConversationChat = (props) => {
 
     let {id} = useParams();
-    let data = props.data.filter(el => el.id == id);
+    let data = props.data.UserData.filter(el => el.id == id);
     console.log(data);
 
     return (
@@ -19,7 +19,7 @@ const ConversationChat = (props) => {
 
             <ConversationChatOverflow data={data} />
 
-            <ConversationChatInput/>
+            <ConversationChatInput data={data} func={props}/>
         </div>
     )
 };

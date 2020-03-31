@@ -20,5 +20,6 @@ import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon28MoreHorizontal from '@vkontakte/icons/dist/28/more_horizontal';
 import Icon28AttachOutline from '@vkontakte/icons/dist/28/attach_outline';
 import Icon28Send from '@vkontakte/icons/dist/28/send';
+import Icon24SmileOutline from '@vkontakte/icons/dist/24/smile_outline';
 
-export {Icon24Home, Icon24Chats, Icon24Newsfeed, Icon24User, Icon24Users, Icon24Camera, Icon24Music, Icon24MoreHorizontal, Icon24Video, Icon16Dropdown, Icon28ChevronDownOutline, Icon28LikeOutline, Icon28CommentOutline, Icon28ShareOutline, Icon24View, Icon28VideoOutline, Icon28SearchOutline, Icon28AddOutline, Icon28ChevronBack, Icon28MoreHorizontal, Icon28AttachOutline, Icon28Send};
+export {Icon24Home, Icon24Chats, Icon24Newsfeed, Icon24User, Icon24Users, Icon24Camera, Icon24Music, Icon24MoreHorizontal, Icon24Video, Icon16Dropdown, Icon28ChevronDownOutline, Icon28LikeOutline, Icon28CommentOutline, Icon28ShareOutline, Icon24View, Icon28VideoOutline, Icon28SearchOutline, Icon28AddOutline, Icon28ChevronBack, Icon28MoreHorizontal, Icon28AttachOutline, Icon28Send, Icon24SmileOutline};

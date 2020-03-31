@@ -5,16 +5,23 @@ import TextfieldBlockProfile from "./Profile_components/textfieldBlockProfile";
 import GalleryBlockProfile from "./Profile_components/galleryBlockProfile";
 import BioInfoProfile from "./Profile_components/bioInfoProfile";
 
+const PostItem = (props) => {
+  return (
+      <PostBlockProfile text={props.text} date={props.date} likes={props.likes} comments={props.comments}/>
+  )
+};
 
-const SecondColumn = () => {
+const SecondColumn = (props) => {
+    let data = props.data.data.PostsWall;
+
+    const PostItems = data
+        .map(item => <PostItem text={item.text} date={item.date} likes={item.likes} comments={item.comments}/>);
     return (
         <div className={style.second_column}>
             <BioInfoProfile/>
             <GalleryBlockProfile/>
-            <TextfieldBlockProfile/>
-            <PostBlockProfile text="всем привет" data="29 июл 2019" like="1"/>
-            <PostBlockProfile text="я зарегистрировался вконтакте" data="14 июн 2015"/>
-            <PostBlockProfile text="я родился" data="30 мар 1997" like="2" comment="2"/>
+            <TextfieldBlockProfile addPost={props.data.data.addPost}/>
+            {PostItems}
         </div>
     )
 };

@@ -68,7 +68,7 @@
 .heading_block_right {
     display: flex;
     align-items: center;
-    padding: 9px 10px 9px 25px;
+    padding: 6px 10px 6px 25px;
 }
 
 .heading_block_avatar {
@@ -175,6 +175,24 @@
 .message_buttons_center > input {
     padding-left: 10px;
 }
+
 .message_buttons_right {
     margin-left: 5px;
+    cursor: pointer;
+}
+.message_buttons_right > button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+button:active, button:focus {
+    outline: none !important;
+
+}
+
+button::-moz-focus-inner {
+    border: 0;
 }

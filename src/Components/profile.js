@@ -5,11 +5,11 @@ import SecondColumn from "./content_components/secondColumn";
 
 
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={style.main_content}>
            <FirstColumn/>
-           <SecondColumn/>
+           <SecondColumn data={props}/>
         </div>
     )
 };

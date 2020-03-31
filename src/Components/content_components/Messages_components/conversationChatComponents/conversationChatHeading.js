@@ -7,9 +7,10 @@ import {NavLink} from 'react-router-dom';
 const ConversationChatHeading = (props) => {
     let UserObject = props.data[0];
 
+
     return (
         <div className={style.heading_block}>
-            <NavLink to='/im'>
+            <NavLink to='/im/'>
                 <div className={style.heading_block_left}>
                     <div className={style.heading_back_icon}>
                         <Icon28ChevronBack/>
@@ -23,10 +24,13 @@ const ConversationChatHeading = (props) => {
             </div>
             <div className={style.heading_block_right}>
                 <Icon28MoreHorizontal/>
-                <img alt={UserObject.name} className={style.heading_block_avatar} src={UserObject.photo}></img>
+                <NavLink to={'/id/' + UserObject.id}>
+                    <img alt={UserObject.name} className={style.heading_block_avatar} src={UserObject.photo}></img>
+                </NavLink>
             </div>
         </div>
     )
 };
 
 export default ConversationChatHeading;
+

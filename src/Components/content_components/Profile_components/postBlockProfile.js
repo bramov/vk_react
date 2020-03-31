@@ -10,7 +10,7 @@ const PostBlockProfile = (props) => {
                     <img alt="Алексей Абрамов" src="https://sun1-20.userapi.com/c858132/v858132635/b8e9e/3CX8bZZFF1Q.jpg?ava=1"></img>
                     <div className={style.name_and_date}>
                         <h5>Алексей Абрамов</h5>
-                        <span>{props.data}</span>
+                        <span>{props.date}</span>
                     </div>
                 </div>
                 <Icon28ChevronDownOutline />
@@ -25,14 +25,14 @@ const PostBlockProfile = (props) => {
             <div className={style.like_repost_comment_block}>
                 <div className={style.left_side_wrapper}>
                     <Icon28LikeOutline/>
-                    <span>{props.like}</span>
+                    <span>{props.likes}</span>
                     <Icon28CommentOutline/>
-                    <span>{props.comment}</span>
+                    <span>{props.comments}</span>
                     <Icon28ShareOutline/>
                 </div>
                 <div className={style.right_side_wrapper}>
                     <Icon24View/>
-                    <span>24</span>
+                    <span>1</span>
                 </div>
 
             </div>
